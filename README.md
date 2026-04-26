@@ -43,6 +43,7 @@ The following methods/functions were implemented from the paper in order to recr
    - scenario1_risks.png
    - scenario2_risk_aware_trajectory.png
    - scenario2_baseline_trajectory.png
+   - scenario2_risk_aware_animation.mp4
 
 - README.md
 
@@ -64,7 +65,6 @@ Do this you do not already have these dependencies installed:
 - ipython
 - osqp
 - scs
-- os
 
 ## How to Run
 .ipynb file:
@@ -73,6 +73,19 @@ Run in Google Colab, Jupyter Notebook or other .ipynb compatible code software
 .py file:
 Download and run the following in your terminal
 python ai_robotics_project.py
+
+The following will be executed:
+- The plots for Scenario 1 will be displayed
+  - The distances for 50 trials
+  - The pairwise distances for a single trial
+  - The trajectories for a single trial
+  - The total risks for a single trial
+- The relevant plots for Scenario 2
+  - The trajectories for the baseline controller
+  - The trajectories for the risk-aware decentralized controller
+- An mp4 video of the trajectories for the risk-aware decentralized controller
+
+Note: The MP4 animation requires ffmpeg. In Google Colab, ffmpeg is usually already installed. On a local machine, install ffmpeg if the animation save step fails.
 
 
 
