@@ -54,6 +54,7 @@ The following methods/functions were implemented from the paper in order to recr
 
 If not already installed, install the required python packages with
 
+'''bash
 pip install -r requirements.txt
 
 NOTE:
@@ -72,6 +73,8 @@ Run in Google Colab, Jupyter Notebook or other .ipynb compatible code software
 
 .py file:
 Download and run the following in your terminal
+
+'''bash
 python ai_robotics_project.py
 
 The following will be executed:
@@ -88,4 +91,14 @@ The following will be executed:
 Note: The MP4 animation requires ffmpeg. In Google Colab, ffmpeg is usually already installed. On a local machine, install ffmpeg if the animation save step fails.
 
 
+## Notes and Limitations
+
+This project is a simplified reproduction of the original paper. Some differences from the paper include:
+
+- The simulations are simplified versions of the original experiments.
+- Some parameters, such as the safety radius and uncertainty settings, may differ from the paper.
+- CVaR is estimated using a finite number of random samples.
+- Scenario 2 uses a right-hand sidestep heuristic to help reduce deadlock.
+
+Because of these simplifications, the results should be interpreted as a reproduction attempt rather than an exact replication of every reported result.
 
