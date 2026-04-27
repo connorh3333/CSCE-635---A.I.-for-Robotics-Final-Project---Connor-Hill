@@ -47,6 +47,8 @@ The following methods/functions were implemented from the paper in order to recr
 
 - README.md
 
+- AI_Robotics_Project_Report.pdf
+
 - requirements.txt
 
 
